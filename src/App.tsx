@@ -16,6 +16,9 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
+        <Routes>
+          <Route path="*"  element={<Index />} />
+        </Routes>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

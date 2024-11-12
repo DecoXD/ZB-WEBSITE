@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ContactButton from './ContactButton';
 
 const LocationSection = () => {
